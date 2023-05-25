@@ -6,25 +6,21 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main className="px-60">
+      <main className="px-60 2xl:px-80">
         <div className="-mt-6 flex items-center justify-center gap-2 ">
           <InputNewTask />
           <ButtonCreateTask />
         </div>
         <div className="mt-16 flex w-full items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-sm font-semibold text-sky-500">
-              Tarefas criadas
-            </span>
+            <span className="font-semibold text-sky-500">Tarefas criadas</span>
             <span className="rounded-full bg-zinc-800 px-3 py-1 text-sm">
               0
             </span>
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="text-sm font-semibold text-[#8284FA]">
-              Concluidas
-            </span>
+            <span className=" font-semibold text-[#8284FA]">Concluidas</span>
             <span className="rounded-full bg-zinc-800 px-3 py-1 text-sm">
               0
             </span>
